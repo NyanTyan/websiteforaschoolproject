@@ -1,0 +1,156 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+h1, h2{cursor: default;}
+/*--------------------*/
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+h1{
+	color: #000;
+	font-size: 30px;
+}
+h2{
+	color: #000;
+	font-size: 26px;
+	font-weight: 900;
+	margin: 20px 0px 0px 170px;
+}
+.text {
+	color: #000;
+	line-height: 25px;
+}
+.bold {
+	color: #000;
+	font-weight: 700;
+}
+.red {
+	color: #ff0000;
+}
+
+
+.header{
+	justify-content: space-between;
+	display: flex;
+    min-height: 40px;
+	background-color: #227aff;
+}
+.header-Caption{
+    color: #ffffff;
+	font-size: 33px;
+    padding: 0px 0px 0px 50px;
+	font-family: 'Dancing Script', cursive;
+	transition-duration: 1s;
+}
+.header-Caption:hover{
+	font-size: 36px;
+}
+.header-Caption:active{
+	color: #7a7a7a;
+}
+.navbar{
+	display: flex;
+
+}
+.navbar a{
+	color: white;
+	font-size: 16px;
+	display: flex;
+	padding: 10px;
+	transition: 1ms;
+}
+.navbar a:active{
+	color: #227aff;
+}
+.navbar li{
+	transition: 0.2s;
+}
+.navbar li:active{
+	background-color: #ffffff;
+}
+ul{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+section h1{
+	margin: 20px 0px 0px 100px;
+	font-size: 36px;
+	font-weight: 900;
+	font-family: 'Montserrat', sans-serif;
+}
+.text-section{
+	margin: 20px 0px 0px 0px;
+}
+.flexus{
+	display: flex;
+}
+.boldtext{
+	font-weight: 900;
+}
+.underlined{
+	text-decoration: underline;
+}
+p{
+	margin: auto;
+	max-width: 1500px;
+	font-size: 20px;
+}
+.image-section{
+	margin-left: 200px;
+	width: 600px;
+}
+.image2-section{
+	margin-left: 200px;
+	width: 1400px;
+}
+.image3-section{
+	margin-left: 200px;
+	width: 400px;
+}
+.image4-section{
+	margin-left: 200px;
+	width: 200px;
+}
+footer{
+	padding: 10px;
+	background-color: #227aff;
+	min-height: 130px;
+}
+footer img{
+	position: relative;
+	bottom: 10px;
+	height: 50px;
+	width: 50px;
+}

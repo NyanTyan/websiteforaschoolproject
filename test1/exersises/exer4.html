@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classroom of the elite</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style-exer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:ital,wght@0,400;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <div>
+    <h2>Тестовые задания</h2>
+        <p>Все в той же чудесной стране, за последний месяц, сотрудник дорожной полиции прописал вам "7C" штрафов в шестнадцатеричной системе счисления, сколько штрафов он вам прописал в десятичной системе счисления.
+        </p>
+        <div id="input" class="input-group mb-3">
+            <input id="test" type="text" class="form-control" placeholder="Напишите ответ" aria-label="Напишите ответ"
+                aria-describedby="basic-addon2">
+            <div class="input-group-append">
+                <button id="button" class="btn btn-outline-secondary" type="button" value="click" onclick="z()">Ответить</button>
+            </div>
+        </div>
+            <span id="err"></span>
+        <div class="handleOl">
+            <ol id="ol">
+            </ol>
+        </div>
+        
+    </div>
+
+    <!-- <script src="./js/js.js"></script> -->
+    <script>
+        function z()
+        {
+        var a=document.getElementById("test");
+        if((a.value=="124")||(a.value=="124"))
+        {
+        document.getElementById('err').innerHTML= 'Ваш ответ правильный';
+
+        }
+        else
+        {
+        document.getElementById('err').innerHTML= 'Ваш ответ неправильный';
+        
+        }
+        
+        }
+        </script>
+</body>
+
+</html>

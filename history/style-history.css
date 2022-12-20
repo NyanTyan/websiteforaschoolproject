@@ -1,0 +1,139 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+h1, h2{cursor: default;}
+/*--------------------*/
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+h1{
+	color: #000;
+	font-size: 30px;
+}
+h2{
+	color: #000;
+	font-size: 25px;
+}
+.text {
+	color: #333333;
+	line-height: 25px;
+}
+.bold {
+	color: #333333;
+	font-weight: 700;
+}
+.red {
+	color: #ff0000;
+}
+.navbar{
+	display: flex;
+
+}
+.navbar a{
+	color: white;
+	font-size: 16px;
+	display: flex;
+	padding: 10px;
+	transition: 0.2s;
+}
+.navbar a:active{
+	color: #227aff;
+}
+.navbar li{
+	transition: 0.2s;
+}
+.navbar li:active{
+	background-color: #ffffff;
+}
+ul{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.header{
+    min-height: 40px;
+	background-color: #227aff;
+	display: flex;
+	justify-content: space-between;
+}
+.header-Caption{
+	text-decoration: none;
+	text-transform: none;
+    color: #ffffff;
+	font-size: 33px;
+    padding: 0px 0px 0px 50px;
+	font-family: 'Dancing Script', cursive;
+	transition-duration: 1s;
+}
+.header-Caption:hover{
+	font-size: 36px;
+	color: #ffffff;
+}
+.header-Caption:active{
+	color: #7a7a7a;
+}
+section h1{
+	margin: 20px 0px 0px 0px;
+	font-size: 33px;
+	font-weight: 900;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+section img{
+	border: 1px solid #000;
+	display: block;
+	margin: 30px auto;
+	max-width: 1680px;
+	max-height: 720px;
+}
+
+footer{
+	padding: 10px;
+	background-color: #227aff;
+	min-height: 130px;
+}
+footer img{
+	position: relative;
+	bottom: 10px;
+	height: 50px;
+	width: 50px;
+}
+.ggwp{
+	margin-top: 20px;
+	margin-left: 300px;
+	margin-bottom: 20px;
+}
+.video{
+	width: 1280px;
+	height: 720px;
+}
